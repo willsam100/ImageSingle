@@ -19,4 +19,3 @@ type MainActivity() =
 
         Xamarin.Forms.Forms.Init (this, bundle)
         this.LoadApplication (new ImageSingle.App ())
-

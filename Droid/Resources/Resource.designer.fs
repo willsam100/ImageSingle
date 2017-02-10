@@ -23,10 +23,10 @@ namespace ImageSingle.Droid
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnExceptionb651e9cd6243466e8a57fc829b997aa0 of obj
-    exception ReturnNoneExceptionb651e9cd6243466e8a57fc829b997aa0
+    exception ReturnExceptione429706fd15d45029a4d7b1f28809ef6 of obj
+    exception ReturnNoneExceptione429706fd15d45029a4d7b1f28809ef6
     [<AutoOpen>]
-    module FuncConvertFinalOverloadb651e9cd6243466e8a57fc829b997aa0 =
+    module FuncConvertFinalOverloade429706fd15d45029a4d7b1f28809ef6 =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -2185,8 +2185,11 @@ namespace ImageSingle.Droid
             // aapt resource value: 0x7f0200a0
             static member mr_ic_play_light = 2130837664
             
+            // aapt resource value: 0x7f0200a2
+            static member notification_template_icon_bg = 2130837666
+            
             // aapt resource value: 0x7f0200a1
-            static member notification_template_icon_bg = 2130837665
+            static member simple = 2130837665
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 

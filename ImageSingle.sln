@@ -5,6 +5,8 @@ Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "ImageSingle", "ImageSingle\
 EndProject
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "ImageSingle.Droid", "Droid\ImageSingle.Droid.fsproj", "{1442252E-7664-46D9-8008-FADDA3FB8D66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageSingle.DroidCSharp", "ImageSingle.DroidCSharp\ImageSingle.DroidCSharp.csproj", "{6CACEF8E-C251-4C5B-8A27-7C8912C90147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{1442252E-7664-46D9-8008-FADDA3FB8D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1442252E-7664-46D9-8008-FADDA3FB8D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1442252E-7664-46D9-8008-FADDA3FB8D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CACEF8E-C251-4C5B-8A27-7C8912C90147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CACEF8E-C251-4C5B-8A27-7C8912C90147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CACEF8E-C251-4C5B-8A27-7C8912C90147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CACEF8E-C251-4C5B-8A27-7C8912C90147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
